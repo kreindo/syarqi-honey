@@ -27,13 +27,18 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
         <WhiteBackgroundContainer>
           <Hero />
           <Partners />
-          <BasicSection imageUrl="/demo-illustration-1.svg" title="Lorem ipsum dolor sit amet consectetur." overTitle="sit amet gogo">
+          <BasicSection
+            imageUrl="/demo-illustration-1.svg"
+            title="Syarqi Honey, madu murni Timor yang kaya manfaat."
+            overTitle="Manfaat Madu Syarqi Honey"
+          >
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore
-              voluptate quo deleniti animi laboriosam.{' '}
-              <Link href="/help-center">Possimus ullam velit rem itaque consectetur, in distinctio?</Link> Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Soluta repellendus quia quos obcaecati nihil. Laudantium non accusantium, voluptate eum nesciunt
-              at suscipit quis est soluta?
+              Dengan Syarqi Honey, Anda akan mendapatkan manfaat yang tidak dapat Anda temukan pada madu lainnya. Madu kami diperoleh dari
+              hutan pedalaman pulau Timor NTT, di mana kami menjaga kualitas madu dengan metode tradisional{' '}
+              <Link href="/help-center">Possimus ullam velit rem itaque consectetur, in distinctio?</Link> Kami yakin bahwa madu kami adalah
+              yang terbaik di pasaran, karena tidak tercampur dengan bahan lain dan memiliki kandungan nutrisi yang baik untuk kesehatan.
+              Madu Syarqi Honey dapat membantu meningkatkan sistem imunitas tubuh, mengobati berbagai penyakit, dan menjaga kesehatan
+              jantung.
             </p>
           </BasicSection>
           <BasicSection imageUrl="/demo-illustration-2.svg" title="Lorem ipsum dolor sit." overTitle="lorem ipsum" reversed>

@@ -14,7 +14,7 @@ export default function Hero() {
   return (
     <HeroWrapper>
       <Contents>
-        <CustomOverTitle>the coolest, saas product you have ever seen</CustomOverTitle>
+        <CustomOverTitle>Madu Murni Timor, Kekayaan Manfaat dalam Setiap Tetes - Syarqi Honey</CustomOverTitle>
         <Heading>Syarqi Honey, madu murni Timor yang kaya manfaat.</Heading>
         <Description>
           Rasakan kekayaan manfaat dari madu murni Timor dengan Syarqi Honey. Madu asli yang di panen dari hutan pedalaman pulau Timor NTT,
@@ -22,11 +22,11 @@ export default function Hero() {
         </Description>
         <CustomButtonGroup>
           <Button onClick={() => setIsModalOpened(true)}>
-            Subscribe to the newsletter <span>&rarr;</span>
+            Pesan sekarang! <span>&rarr;</span>
           </Button>
           <NextLink href="#whitepaper" passHref>
             <Button transparent>
-              Khasiat <span>&rarr;</span>
+              Khasiat madu <span>&rarr;</span>
             </Button>
           </NextLink>
         </CustomButtonGroup>
@@ -82,8 +82,9 @@ const ImageContainer = styled.div`
 `;
 
 const Description = styled.p`
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   opacity: 0.8;
+  font-family: 'Open sans';
   line-height: 1.6;
 
   ${media('<=desktop')} {
@@ -93,11 +94,14 @@ const Description = styled.p`
 
 const CustomOverTitle = styled(OverTitle)`
   margin-bottom: 2rem;
+  font-size: 12px;
+  font-family: 'Gloria Hallelujah';
 `;
 
 const Heading = styled.h1`
-  font-size: 7.2rem;
-  font-weight: bold;
+  font-size: 8rem;
+  font-family: 'Amatic SC', sans-serif;
+  font-weight: 700;
   line-height: 1.1;
   margin-bottom: 4rem;
   letter-spacing: -0.03em;

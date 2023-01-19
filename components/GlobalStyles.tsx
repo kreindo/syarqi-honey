@@ -12,24 +12,25 @@ import { createGlobalStyle } from 'styled-components';
 export const GlobalStyle = createGlobalStyle`
 
 .next-light-theme {
-  --background: 251,251,253;
-  --secondBackground: 255,255,255;
+  --background: 255,213,111;
+  --secondBackground: 255,178,107;
   --text: 10,18,30;
   --textSecondary: 255,255,255;
-  --primary: 22,115,255; 
+  --primary: 147,155,98;
+  /* --primary: 22,115,255; */
   --secondary: 10,18,30;
   --tertiary: 231,241,251;
   --cardBackground: 255,255,255;
   --inputBackground: 255,255,255;
-  --navbarBackground: 255,255,255;
+  --navbarBackground: 255,123,84;
   --modalBackground: 251,251,253;
   --errorColor: 207,34,46;
   --logoColor: #243A5A;
 }
 
 .next-dark-theme {
-  --background: 26,32,44;
-  --secondBackground: 45,55,72;
+  --background: 250,171,120;
+  --secondBackground: 250,171,120;
   --text: 237,237,238;
   --textSecondary: 255,255,255;
   --primary: 22,115,255; 

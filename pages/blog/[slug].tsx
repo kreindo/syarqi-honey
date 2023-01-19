@@ -105,7 +105,7 @@ export async function getStaticPaths() {
 
   type NullAwarePostsList = { getPostsList: NonNullableChildrenDeep<Query['getPostsList']> };
   return {
-    paths: (postsListData as NullAwarePostsList).getPostsList.edges.map((edge) => ({
+    paths: (postsListData as NullAwarePostsList).getPostsList.edges.map((edge: any) => ({
       params: { slug: normalizePostName(edge.node.sys.basename) },
     })),
     fallback: false,
