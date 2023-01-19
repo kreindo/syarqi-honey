@@ -17,7 +17,8 @@ export default function Hero() {
         <CustomOverTitle>the coolest, saas product you have ever seen</CustomOverTitle>
         <Heading>Syarqi Honey, madu murni Timor yang kaya manfaat.</Heading>
         <Description>
-        Rasakan kekayaan manfaat dari madu murni Timor dengan Syarqi Honey. Madu asli yang di panen dari hutan pedalaman pulau Timor NTT, Syarqi Honey kaya akan kandungan nutrisi yang baik untuk kesehatan dan obat.
+          Rasakan kekayaan manfaat dari madu murni Timor dengan Syarqi Honey. Madu asli yang di panen dari hutan pedalaman pulau Timor NTT,
+          Syarqi Honey kaya akan kandungan nutrisi yang baik untuk kesehatan dan obat.
         </Description>
         <CustomButtonGroup>
           <Button onClick={() => setIsModalOpened(true)}>
