@@ -15,10 +15,9 @@ export default function Hero() {
     <HeroWrapper>
       <Contents>
         <CustomOverTitle>the coolest, saas product you have ever seen</CustomOverTitle>
-        <Heading>Make your life easier with our SaaS</Heading>
+        <Heading>Syarqi Honey, madu murni Timor yang kaya manfaat.</Heading>
         <Description>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, tempora qui. Explicabo voluptate iure ipsum molestias
-          repudiandae perspiciatis nostrum praesentium, unde pariatur tempora magni rem. Necessitatibus facilis obcaecati ratione.
+        Rasakan kekayaan manfaat dari madu murni Timor dengan Syarqi Honey. Madu asli yang di panen dari hutan pedalaman pulau Timor NTT, Syarqi Honey kaya akan kandungan nutrisi yang baik untuk kesehatan dan obat.
         </Description>
         <CustomButtonGroup>
           <Button onClick={() => setIsModalOpened(true)}>
@@ -26,7 +25,7 @@ export default function Hero() {
           </Button>
           <NextLink href="#whitepaper" passHref>
             <Button transparent>
-              Features <span>&rarr;</span>
+              Khasiat <span>&rarr;</span>
             </Button>
           </NextLink>
         </CustomButtonGroup>
